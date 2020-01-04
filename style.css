@@ -1,0 +1,610 @@
+
+
+body {
+	background-image: url(images/white.png);
+	background-repeat: repeat;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul.b {
+	list-style-type: none;
+	margin-left: -20px;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+ul.b li {
+	background-image:url(images/u1b.png);
+	background-repeat: no-repeat;
+	background-position: 0;
+	padding-left: 20px;
+}
+
+ul.b a {
+	color:black;
+	text-decoration:none;
+}
+
+ul.b a:hover {
+	color:#3FA9F5;
+}
+
+ul.g {
+	list-style-type: none;
+	margin-left: -20px;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+ul.g li {
+	background-image:url(images/u1g.png);
+	background-repeat: no-repeat;
+	background-position: 0;
+	padding-left: 20px;
+}
+
+ul.g a {
+	color:black;
+	text-decoration:none;
+}
+
+ul.g a:hover {
+	color:#7AC943;
+}
+
+ul.o {
+	list-style-type: none;
+	margin-left: -20px;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+ul.o li {
+	background-image:url(images/u1o.png);
+	background-repeat: no-repeat;
+	background-position: 0;
+	padding-left: 20px;
+}
+
+ul.o a {
+	color:black;
+	text-decoration:none;
+}
+
+ul.o a:hover {
+	color:#FF931E;
+}
+
+.ortala {
+	width: 1000px;
+    margin: 0 auto;
+}
+
+.ustbanner {
+	width: 100%;
+	height: 77;
+}
+
+#logo {
+	height: 50px;
+	width: 317px;
+	padding-top: 0;
+	float: left;
+	background-image:url(images/logo.png);
+	background-repeat: no-repeat;
+}
+
+.butonlar{
+	height: 400px;
+	margin-top: 27px;
+	background-color: #ffffff;
+}
+
+.butonbosluk {
+	float: right;
+	width: 5px;
+	margin-top: 27px;
+}
+
+#mavibuton {
+	height: 45px;
+	width: 140px;
+	float:right;
+	margin-top: 5px;
+	margin-right: 5px;
+	background-color: #3FA9F5;
+}
+
+#mavibuton a {
+	display: block;
+	background:#3FA9F5;
+	color: #ffffff;
+	height: 100%;
+	text-decoration:none;
+}
+
+#mavibuton a:hover {
+	background: #ffffff;
+	color:#3FA9F5;
+	text-decoration:none;
+}
+
+#yesilbuton {
+	
+	background-color: #7AC943;
+	border-radius: 10px;
+}
+
+#yesilbuton a {
+	display: block;
+	background:#7AC943;
+	color: #ffffff;
+	height: 100%;
+	text-decoration:none;
+}
+
+#yesilbuton a:hover {
+	background: #ffffff;
+	color:#7AC943;
+	text-decoration:none;
+}
+ 
+#turuncubuton {
+	
+	background-color: #FF931E;
+	border-radius: 10px;
+}
+
+#turuncubuton a {
+	display: block;
+	background:#FF931E;
+	color: #ffffff;
+	height: 100%;
+	text-decoration:none;
+}
+
+#turuncubuton a:hover {
+	background: #ffffff;
+	color:#FF931E;
+	text-decoration:none;
+}
+
+.anabutonyazi {
+	line-height: 45px;
+	text-align:center;
+	font-size: 16px;
+	font-weight:500;
+	color: #ffffff;
+}
+
+.govde {
+	height: 420px;
+	width: 1000px;
+	background-color: #ffffff;
+	float: left;
+	margin-top: 0;
+}
+
+#govdesol {
+	height: 390px;
+	width: 500px;
+	background-color: #3FA9F5;
+	float: left;
+	margin-top: 10px;
+}
+
+#govdelogo {
+	height: 390px;
+	width: 500px;
+	background-image:url(images/govde.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin-top: 0;
+}
+
+#merhaba {
+	width: 400px;
+	height: 300px;
+	padding-top: 50px;
+	padding-left: 50px;
+	font-size:60px;
+	font-weight:900;
+	color:#FFFFFF;
+}
+
+#merhaba p {
+	margin: 0;
+}
+
+#govdesag {
+	height: 390px;
+	width: 500px;
+	background-color: #1A1A1A;
+	float: right;
+	margin-top: 10px;
+}
+
+#resimyazisi {
+	line-height: 80px;
+	width: 500px;
+	text-align:center;
+	font-size: 30px;
+	font-weight:300;
+	color: #ffffff;
+}
+
+#resimyazisi a {
+	color: #ffffff;
+	text-decoration:none;
+}
+
+#resimyazisi a:hover {
+	color: #ffffff;
+	text-decoration:underline;
+}
+
+#anaresim {
+	height: 800px;
+	width: 500px;
+	float: right;
+	margin-top: 0px;
+}
+
+/* PROJE */
+.govde2 {
+	height: 280px;
+	width: 1000px;
+	background-color: #ffffff;
+	float: left;
+	margin-top: 0;
+}
+
+#govdesol2 {
+	height: 250px;
+	width: 500px;
+	background-color:#7AC943;
+	float: left;
+	margin-top: 10px;
+	text-align:justify;
+	line-height: 30px;
+}
+
+#govdelogo2 {
+	height: 250px;
+	width: 500px;
+	background-image:url(images/govde.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin-top: 0;
+}
+
+#projetxt {
+	width: 400px;
+	height: 200px;
+	padding-top: 25px;
+	padding-left: 50px;
+	font-size:16px;
+	font-weight:normal;
+	font-style:italic;
+	color:#FFFFFF;
+}
+
+#projetxt p {
+	margin: 0;
+}
+
+#govdesag2 {
+	height: 250px;
+	width: 500px;
+	background-color: #1A1A1A;
+	float: right;
+	margin-top: 10px;
+}
+
+#anaresim2 {
+	height: 250px;
+	width: 500px;
+	float: right;
+	margin-top: 0px;
+}
+
+.projebuttut {
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+	float: left;
+}
+
+.projebuton {
+	height: 50px;
+	width: 150px;
+	background: #dddddd;
+	color:#ffffff;
+	margin-top: 0;
+	float: left;
+}
+
+.projebuton a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: #3FA9F5;
+	color: #ffffff;
+	text-decoration:none;
+}
+
+.projebuton a:hover{
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	color: #3FA9F5;
+	text-decoration:none;
+}
+
+.projebutayir {
+	height: 50px;
+	width: 20px;
+	float: left;
+}
+
+.anabutonyazi2 {
+	line-height: 50px;
+	text-align:center;
+	font-size: 16px;
+	font-weight:500;
+	color: #ebebeb;
+	margin-top: 0;
+}
+
+/* PROJE */
+
+/* HAKKIMDA */
+.govde3 {
+	height: 155px;
+	width: 1000px;
+	background-color: #ffffff;
+	float: left;
+	margin-top: 0;
+}
+
+#govdesol3 {
+	height: 125px;
+	width: 500px;
+	background-color:#FF931E;
+	float: left;
+	margin-top: 10px;
+	text-align:justify;
+	line-height: 30px;
+}
+
+#govdelogo3 {
+	height: 125px;
+	width: 500px;
+	background-image:url(images/govde.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin-top: 0;
+}
+
+#projetxt2 {
+	width: 500px;
+	line-height: 125px;
+	text-align: center;
+	font-size:40px;
+	font-weight:900;
+	color:#FFFFFF;
+}
+
+#projetxt2 p {
+	margin: 0;
+}
+
+#govdesag3 {
+	height: 125px;
+	width: 500px;
+	background-color: #1A1A1A;
+	float: right;
+	margin-top: 10px;
+}
+
+#anaresim3 {
+	height: 125px;
+	width: 500px;
+	float: right;
+	margin-top: 0px;
+}
+
+.hakkimdaline {
+	height: 20px;
+	width: 100%;
+	margin-top: 50px;
+	float: left;
+	background: #808080;
+}
+
+.hakkimdatut {
+	height: auto;
+	width: 100%;
+	margin-top: 0px;
+	float: left;
+	background: #ffffff;
+}
+
+#fotoarka {
+	height: 190px;
+	width: 145px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+	background:#808080;
+}
+
+#foto {
+	height: 180px;
+	width: 135px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#hakkindayazi {
+	height: auto;
+	width: 700;
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+#hakkindayazi th{
+	text-align: left;
+	line-height: 30px;
+	font-size:16px;
+	font-weight:normal;
+	color:#000000;
+}
+/* HAKKIMDA */
+
+.hizligovde {
+	height: 270px;
+	width: 475px;
+	float: left;
+	margin-top: 50px;
+}
+
+#hizlierisim1 {
+	height: 50px;
+	width: 250px;
+	background-color: #3FA9F5;
+	float: left;
+	margin-top: 0px;
+}
+
+#hizlimenu1 {
+	height: 220px;
+	width: 475px;
+	background-color: #ffffff;
+	float: left;
+	margin-top: 0;
+}
+
+.govdeayir {
+	height: 270px;
+	width: 50px;
+	float: left;
+	margin-top: 50px;
+}
+
+#hizlierisim2 {
+	height: 50px;
+	width: 250px;
+	background-color: #7AC943;
+	float: left;
+	margin-top: 0px;
+}
+
+#hizlimenu2 {
+	height: 220px;
+	width: 475px;
+	background-color: #ffffff;
+	float: left;
+	margin-top: 0;
+}
+
+.hizliyazi {
+	line-height: 50px;
+	text-align:left;
+	font-size: 16px;
+	font-weight:500;
+	color: #ffffff;
+	padding-left: 20px;
+}
+
+.proje_adi {
+	height: 50px;
+	width: 100%;
+	background-color:#26B1FF;
+	margin-top: 50px;
+	float: left;
+}
+
+#proje_yazi {
+	line-height: 50px;
+	width: 100%;
+	float: left;
+	text-align:center;
+	font-size: 16px;
+	font-weight:500;
+	color:#ffffff;
+}
+
+.footer {
+	height: 100px;
+	width: 100%;
+	background-color: #1A1A1A;
+	margin-top: 50px;
+	float: left;
+}
+
+#footeryazi {
+	line-height: 100px;
+	width: 100%;
+	float: left;
+	text-align:center;
+	font-size: 16px;
+	font-weight:500;
+	color:#606060;
+}
+<!-- CSS styles for standard search box with placeholder text-->
+<style type="text/css">
+	#tfheader{
+		background-color:#c3dfef;
+	}
+	#tfnewsearch{
+		float:left;
+		padding:20px;
+	}
+	.tftextinput2{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#666;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton2 {
+		margin: 0;
+		padding: 5px 7px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton2:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+</style>
